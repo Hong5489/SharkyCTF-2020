@@ -6,8 +6,6 @@
 
 [main.asm](main.asm)
 
-```
-
 If correct input will return 1, so we need to get to `win` function and avoid `exit`:
 ```asm
 win:

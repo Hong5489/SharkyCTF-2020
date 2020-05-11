@@ -22,7 +22,7 @@ In order to get to `win`, we need to pass though `main`,`l1` and `follow_the_lab
 ## Analyse
 
 In function main:
-```
+```asm
 mov rdx, [rsp] // rsp is argc in C programming (Numbers of arg)
 cmp rdx, 2	   // If not equal 2 then exit
 jne exit
@@ -33,7 +33,7 @@ mov rcx, 0
 ```
 
 In function l1:
-```
+```asm
 cmp byte [rdx], 0   // If is null then jump to follow_the_label
 je follow_the_label 
 inc rcx             // Increase rcx and rdx and continue from top
@@ -42,7 +42,7 @@ jmp l1
 ```	
 
 In function follow_the_label:
-```
+```asm
 mov al, byte [rsi+rcx-1]  // rsi is the input pointer and rcx is index at null
                           // And get a byte from the pointer
                           // So it begin at end of our input

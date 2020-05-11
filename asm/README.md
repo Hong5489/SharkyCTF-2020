@@ -7,8 +7,6 @@ Creator : Nofix
 ```
 [main.asm](main.asm)
 
-## Reference
-[Registers](https://www.tortall.net/projects/yasm/manual/html/arch-x86-registers.html)
 
 If correct input will return 1, so we need to get to `win` function and avoid `exit`:
 ```asm
@@ -89,3 +87,5 @@ Thats it!
 ```
 Result: shkCTF{h3ll0_fr0m_ASM_my_fr13nd}
 ```
+## Reference
+[Registers](https://www.tortall.net/projects/yasm/manual/html/arch-x86-registers.html)

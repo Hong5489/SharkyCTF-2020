@@ -2,11 +2,11 @@
 
 >Description:
 >A really simple crackme to get started ;) Your goal is to find the correct input so that the program return 1. The correct input will be the flag.
-
 >Creator : Nofix
-```
+
 [main.asm](main.asm)
 
+```
 
 If correct input will return 1, so we need to get to `win` function and avoid `exit`:
 ```asm
